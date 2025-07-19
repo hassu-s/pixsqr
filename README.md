@@ -7,4 +7,4 @@ To use it, transfer all the code within the HTML `<body>` tag. In the CSS, you m
 https://github.com/hassus-s/pixsqr/blob/master/LICENSE
 
 ## Contact
-https://hassus.stars.ne.jp/s/dQlFawK9
+https://hassus.stars.ne.jp/r/pixsqr
