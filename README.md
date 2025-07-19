@@ -4,7 +4,7 @@ Despite being lightweight, it supports positioning, resizing, and operations usi
 To use it, transfer all the code within the HTML `<body>` tag. In the CSS, you may delete any code above `/* Must be included */`. JavaScript is essential.
 
 ## License
-https://github.com/hassus-s/pixsqr/blob/master/LICENSE
+https://github.com/hassu-s/pixsqr/blob/main/LICENSE
 
 ## Contact
 https://hassus.stars.ne.jp/r/pixsqr
