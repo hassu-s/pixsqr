@@ -1,0 +1,23 @@
+<div class="contentp">
+    <div class="upload-section">
+        <input type="file" id="imageUpload" accept="image/png, image/jpeg, image/webp, image/gif" class="custom-file-input">
+        <label for="imageUpload" class="custom-file-label"></label>
+    </div>
+
+    <div id="imageContainer" class="image-container">
+        <p id="placeholderText" class="placeholder-text">Please upload an image.</p>
+        <img id="uploadedImage" src="#" alt="Uploaded image" class="hidden">
+        <div id="cropFrame" class="crop-frame hidden">
+            <div class="resize-handle top-left"></div>
+            <div class="resize-handle top-right"></div>
+            <div class="resize-handle bottom-left"></div>
+            <div class="resize-handle bottom-right"></div>
+        </div>
+        <div id="imageGridHorizontal" class="grid-line horizontal hidden"></div>
+        <div id="imageGridVertical" class="grid-line vertical hidden"></div>
+    </div>
+
+    <button id="cropButton" class="mainbtn hidden">DOWNLOAD</button>
+
+    <div id="messageArea" class="message-area"></div>
+</div>

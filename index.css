@@ -1,0 +1,117 @@
+button , input[type="file"]::file-selector-button {
+    background: #fff;
+    border: 1px solid #333;
+    padding: 10px;
+}
+
+/* Must be included */
+.upload-section {
+    margin-bottom: 10px;
+}
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e2e8f0;
+    min-height: 300px;
+    max-height: 80vh;
+    width: 100%;
+    max-width: 32rem;
+    border: 1px solid #333;
+}
+
+.image-container * {
+    transition: none;
+}
+
+.image-container img {
+    display: block;
+    position: absolute;
+    margin: auto;
+}
+
+.placeholder-text {
+    color: #6b7280;
+}
+
+.crop-frame {
+    position: absolute;
+    border: 2px dashed #3b82f6;
+    background-image: repeating-linear-gradient(45deg, transparent, transparent 9px, rgba(255, 255, 255, 0.3) 9px, rgba(255, 255, 255, 0.3) 10px);
+    background-color: rgba(0, 0, 0, 0.3);
+    cursor: grab;
+    box-sizing: border-box;
+    touch-action: none;
+}
+
+.crop-frame.dragging {
+    cursor: grabbing;
+}
+
+.resize-handle {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-color: #3b82f6;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    z-index: 10;
+    touch-action: none;
+}
+
+.resize-handle.top-left {
+    top: -8px;
+    left: -8px;
+    cursor: nwse-resize;
+}
+
+.resize-handle.top-right {
+    top: -8px;
+    right: -8px;
+    cursor: nesw-resize;
+}
+
+.resize-handle.bottom-left {
+    bottom: -8px;
+    left: -8px;
+    cursor: nesw-resize;
+}
+
+.resize-handle.bottom-right {
+    bottom: -8px;
+    right: -8px;
+    cursor: nwse-resize;
+}
+
+.message-area.error {
+    color: #ef4444;
+}
+
+.message-area.success {
+    color: #22c55e;
+}
+
+.message-area.info {
+    color: #4b5563;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.grid-line {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.7);
+    z-index: 5;
+}
+
+.grid-line.horizontal {
+    height: 1px;
+}
+
+.grid-line.vertical {
+    width: 1px;
+}
