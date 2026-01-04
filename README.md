@@ -8,4 +8,4 @@ Only PNG, JPEG (JPG), WebP, and GIF formats are supported.
 https://github.com/hassu-s/pixsqr/blob/main/LICENSE
 
 ## Contact
-https://hassus.stars.ne.jp/r/pixsqr
+https://hassus.stars.ne.jp/contact
